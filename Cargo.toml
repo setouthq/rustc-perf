@@ -23,3 +23,6 @@ debug = 1
 
 [profile.release.package.collector]
 debug = 1
+
+[patch.crates-io]
+synstructure = { git = "https://github.com/setouthq/synstructure", branch = "wasm" }
